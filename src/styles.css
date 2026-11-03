@@ -113,7 +113,7 @@ h3 { font-size: 1rem; margin-bottom: 0.5rem; }
 .calendar-event.type-meeting { border-left-color: #be8d2e; background: #fff7e4; color: #795a16; }
 .more-events { font-size: 0.7rem; color: #61728a; }
 .calendar-hint { font-size: 0.8rem; color: #69788c; margin: 0; padding: 0.6rem 0.9rem; }
-.user-email { font-size: 14px; color: #374151; }
+.user-email { color: #000000 !important; opacity: 1 !important; }
 .upcoming-panel { padding: 1.1rem; }
 .upcoming-list { margin: 0; padding: 0; list-style: none; }
 .upcoming-list li + li { border-top: 1px solid #e5eaf0; }
