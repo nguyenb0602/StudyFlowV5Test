@@ -85,7 +85,7 @@ export default function Dashboard({ user, onLogout }) {
           ))}
         </nav>
         <div className="sidebar-bottom">
-          <div className="signed-in-label">{user.name}<span>{user.email}</span></div>
+          <div className="signed-in-label">{user.name}<span className="user-email">{user.email}</span></div>
           <button type="button" className="secondary full" onClick={onLogout}>Log Out</button>
         </div>
       </aside>
